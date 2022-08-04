@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+.Container{
+  width: 850px;
+  height: 550px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 60px;
+}
+
+.Logo-Titolo{
+  text-align: center;
+  width: 100%;
+  height: 20%;
+}
+
+img{
+  width: 25%;
+}
+
+h3{
+  font-family: 'Poppins', sans-serif;
+  color: rgb(0, 220, 0);
+}
+
+.Pulsantiera{
+  width: 100%;
+  height: 32px;
+  background-color: rgb(0, 220, 0);
+  text-align: center;
+  padding: 5px;
+}
+
+button{
+  font-size: 8px;
+  font-weight: bold;
+  padding: 2px;
+}
+
+.Veicolo{
+  width: 60%;
+  margin-top: 20px;
+}
+
+h4{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+span{
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  color: lightgrey;
+}
+
+.Indirizzo::before{
+  content: "\21A6";
+}
+
+.Indicatore-carica{
+  height: 20px;
+  border-radius: 4px;
+}
+
+.Gino22 > .Indicatore-carica{
+  width: 60%;
+  background-color: rgb(245, 199, 61);
+}
+
+.Mike24 > .Indicatore-carica{
+  width: 100%;
+  background-color: rgb(0, 200, 0);
+}
+
+.Fede154 > .Indicatore-carica{
+  width: 25%;
+  background-color: rgb(198, 57, 57);
+}
